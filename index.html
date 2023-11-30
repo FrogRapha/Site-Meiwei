@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="pt-pt">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>MeiWei</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicon -->
+  <link href="img/favicon.png" rel="icon">
+
+  <!--Fontes -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <!--CSS-->
+  <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--Header-->
+  <header id="header" class="header fixed-top d-flex align-items-center">
+    <div class="container d-flex align-items-center justify-content-between">
+
+      <a href="index.html" class="logo d-flex align-items-center me-auto me-lg-0">
+        <img src="img/logo.png" alt="">
+
+      </a>
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a href="#hero">Home</a></li>
+          <li><a href="#menu">Menu</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <a class="btn-book-a-table" href="login.html">Login</a>
+      <i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
+      <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
+
+    </div>
+  </header>
+
+  <!--Hero-->
+  <section id="hero" class="hero d-flex align-items-center section-bg">
+    <div class="container">
+      <div class="row justify-content-between gy-5">
+        <div class="col-lg-5 order-2 order-lg-1 d-flex flex-column justify-content-center align-items-center align-items-lg-start text-center text-lg-start">
+          <h2>Disfrute a nossa<br>Comida Chinesa</h2>
+          <p>Comida tradicional chinesa no conforto da sua casa.</p>
+        </div>
+        <div class="col-lg-5 order-1 order-lg-2 text-center text-lg-start">
+          <img src="img/hero-img.png" class="img-fluid" alt="">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <main id="main">
+
+    <!--Menu-->
+    <section id="menu" class="menu">
+      <div class="container">
+
+        <div class="section-header">
+          <p>Verifique os Nossos <span><strong>Produtos</strong></span></p>
+        </div>
+
+        <div class="tab-content">
+
+          <div class="tab-pane fade active show" id="menu-starters">
+
+            <div class="row gy-5">
+
+              <div class="col-lg-4 menu-item">
+                <a href="img/menu/menu-item-1.png" class="glightbox"><img src="img/menu/menu-item-1.png" class="menu-img img-fluid" alt=""></a>
+                <h4>Chow Mein</h4>
+                <p class="ingredients">
+                  Massa chinesa
+                </p>
+                <p class="price">
+                  1,99€
+                </p>
+              </div><!--Item-->
+
+              <div class="col-lg-4 menu-item">
+                <a href="img/menu/menu-item-2.png" class="glightbox"><img src="img/menu/menu-item-2.png" class="menu-img img-fluid" alt=""></a>
+                <h4>Peking Duck</h4>
+                <p class="ingredients">
+                  Pato Assado
+                </p>
+                <p class="price">
+                  2,49€
+                </p>
+              </div><!--Item-->
+
+              <div class="col-lg-4 menu-item">
+                <a href="img/menu/menu-item-3.png" class="glightbox"><img src="img/menu/menu-item-3.png" class="menu-img img-fluid" alt=""></a>
+                <h4>Chee-Cheong Fun</h4>
+                <p class="ingredients">
+                  Massa de Arroz com molho de soja
+                </p>
+                <p class="price">
+                  2,99€
+                </p>
+              </div><!--Item-->
+
+    </section>
+
+    <!--Contactos-->
+    <section id="contact" class="contact">
+      <div class="container">
+
+        <div class="section-header">
+          <p>Precisa de ajuda? <span><strong>Contacte-nos</strong></span></p>
+        </div>
+
+        <div class="row gy-4">
+
+          <div class="col-md-6">
+            <div class="info-item  d-flex align-items-center">
+              <i class="icon bi bi-map flex-shrink-0"></i>
+              <div>
+                <h3>Endereço</h3>
+                <p>Rua das Ruas, Nº123, 1234-567</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6">
+            <div class="info-item d-flex align-items-center">
+              <i class="icon bi bi-envelope flex-shrink-0"></i>
+              <div>
+                <h3>Email</h3>
+                <p>geral@meiwei.pt</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6">
+            <div class="info-item  d-flex align-items-center">
+              <i class="icon bi bi-telephone flex-shrink-0"></i>
+              <div>
+                <h3>Ligue-nos</h3>
+                <p>+351 21 12 14 145</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6">
+            <div class="info-item  d-flex align-items-center">
+              <i class="icon bi bi-share flex-shrink-0"></i>
+              <div>
+                <h3>Horas de Atendimento</h3>
+                <div><strong>Seg-Sex:</strong> 11:00 - 19:00;
+                  <strong>Sáb-Dom:</strong> Fechado
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <form class="php-email-form p-3 p-md-4">
+          <div class="row">
+            <div class="col-xl-6 form-group">
+              <input type="text" name="name" class="form-control" id="name" placeholder="O Seu Nome" required>
+            </div>
+            <div class="col-xl-6 form-group">
+              <input type="email" class="form-control" name="email" id="email" placeholder="O seu Email" required>
+            </div>
+          </div>
+          <div class="form-group">
+            <input type="text" class="form-control" name="subject" id="subject" placeholder="Assunto" required>
+          </div>
+          <div class="form-group">
+            <textarea class="form-control" name="message" rows="5" placeholder="Mensagem" required></textarea>
+          </div>
+          <div class="text-center"><button type="submit">Enviar Mensagem</button></div>
+        </form>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!--Footer-->
+  <footer id="footer" class="footer">
+
+    <div class="container">
+      <div class="row gy-2">
+        
+        <div class="col-lg-3 col-md-6 footer-links">
+          <h4>Siga-nos</h4>
+          <div class="social-links d-flex">
+            <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
+            <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+            <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="copyright">
+        &copy;<strong><span> MeiWei </span></strong>2023.
+      </div>
+    </div>
+
+  </footer>
+
+
+
+<!--Script-->
+  <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="main.js"></script>
+
+</body>
+
+</html>
